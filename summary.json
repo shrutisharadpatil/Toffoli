@@ -1,0 +1,92 @@
+{
+  "D1_Barenco": {
+    "layouts": 25,
+    "min_cz": 8,
+    "avg_cz": 9.44,
+    "min_sx": 17,
+    "avg_sx": 20.88,
+    "min_depth": 30,
+    "avg_depth": 35.44
+  },
+  "D2_Maslov": {
+    "layouts": 25,
+    "min_cz": 4,
+    "avg_cz": 4.48,
+    "min_sx": 10,
+    "avg_sx": 11.8,
+    "min_depth": 18,
+    "avg_depth": 21.28
+  },
+  "D3_Amy": {
+    "layouts": 25,
+    "min_cz": 12,
+    "avg_cz": 12.76,
+    "min_sx": 24,
+    "avg_sx": 27.56,
+    "min_depth": 35,
+    "avg_depth": 38.36
+  },
+  "D4_Cruz_Linear": {
+    "layouts": 25,
+    "min_cz": 8,
+    "avg_cz": 8.24,
+    "min_sx": 16,
+    "avg_sx": 17.44,
+    "min_depth": 22,
+    "avg_depth": 25.36
+  },
+  "D5_Nielsen_Chuang": {
+    "layouts": 25,
+    "min_cz": 8,
+    "avg_cz": 8.24,
+    "min_sx": 16,
+    "avg_sx": 16.72,
+    "min_depth": 20,
+    "avg_depth": 24.12
+  },
+  "D6_Selinger": {
+    "layouts": 89,
+    "min_cz": 42,
+    "avg_cz": 55.29,
+    "min_sx": 76,
+    "avg_sx": 101.19,
+    "min_depth": 60,
+    "avg_depth": 94.36
+  },
+  "D7_Vale": {
+    "layouts": 25,
+    "min_cz": 4,
+    "avg_cz": 5.52,
+    "min_sx": 10,
+    "avg_sx": 13.32,
+    "min_depth": 16,
+    "avg_depth": 23.4
+  },
+  "D8_Jones": {
+    "layouts": 32,
+    "min_cz": 15,
+    "avg_cz": 20.12,
+    "min_sx": 27,
+    "avg_sx": 43.19,
+    "min_depth": 36,
+    "avg_depth": 47.66
+  },
+  "D9_Zero_Ancilla": {
+    "layouts": 25,
+    "min_cz": 11,
+    "avg_cz": 12.96,
+    "min_sx": 21,
+    "avg_sx": 25.36,
+    "min_depth": 36,
+    "avg_depth": 41.48
+  },
+  "D10_Alt": {
+    "layouts": 25,
+    "min_cz": 14,
+    "avg_cz": 15.2,
+    "min_sx": 25,
+    "avg_sx": 29.24,
+    "min_depth": 35,
+    "avg_depth": 41.2
+  }
+}
