@@ -10,7 +10,7 @@ The pipeline verifies each decomposition, generates all connected physical layou
 
 ```
 .
-├── Catalog
+├── code
 │   ├── circuits
 │   │   ├── d1_barenco.py
 │   │   ├── d2_maslov.py
@@ -133,23 +133,23 @@ pip install qiskit numpy matplotlib
 Verify all decompositions
 
 ```bash
-python Catalog/verify.py
+python code/verify.py
 ```
 
 Generate transpilation results
 
 ```bash
-python Catalog/transpile_all.py
+python code/transpile_all.py
 ```
 
 Generate summary statistics
 
 ```bash
-python Catalog/analyze.py
+python code/analyze.py
 ```
 
 Generate comparison plots
 
 ```bash
-python Catalog/visualize.py
+python code/visualize.py
 ```
