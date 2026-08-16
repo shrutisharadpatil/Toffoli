@@ -1,0 +1,25 @@
+from qiskit import QuantumCircuit, transpile
+from qiskit.quantum_info import Operator
+
+qc = QuantumCircuit(3)
+qc.ccx(0, 1, 2)
+
+dq = transpile(
+    qc,
+    basis_gates=["cz", "sx", "rz", "x"],
+    optimization_level=3,
+)
+
+print(dq)
+
+ref = QuantumCircuit(3)
+ref.ccx(0, 1, 2)
+
+print("="*50)
+print(dq)
+
+print("\nEquivalent:", Operator(dq).equiv(Operator(ref)))
+
+print("\nDepth:", dq.depth())
+print("Size:", dq.size())
+print("Operations:", dq.count_ops())
